@@ -1,0 +1,90 @@
+/* Home.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+form {
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: center;
+  gap: 10vw;
+  padding: 0 5vw;
+}
+
+.text {
+  max-width: 900;
+  min-width: 900px; 
+  height: 400px;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px; 
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.summary {
+  /* color: #45a049; */
+  margin-top: 25vh;
+  background-color: white;
+  min-height: 30vh;
+  min-width: 30vw;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 10px;
+  
+
+}
+
+.summary p
+{
+  text-align: justify;
+  padding: 10px;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

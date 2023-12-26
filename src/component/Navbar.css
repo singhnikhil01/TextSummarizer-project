@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #4caf50;
+    width: 100%;
+    padding: 20px;
+    max-height: 30px;
+    display: flex;
+    justify-content: space-between; /* Align items to the right */
+    align-items: center;
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .nav-list li {
+    margin-left: 20px; /* Adjust the spacing between "About" and "Contact" */
+  }
+  
+  .nav-list li:first-child {
+    margin-left: 2; /* Remove left margin for the first item */
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-list li a:hover {
+    color: #222425;
+  }
+  

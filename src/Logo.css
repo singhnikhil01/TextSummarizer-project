@@ -1,0 +1,26 @@
+/* Logo.css */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logo-icon {
+    font-size: 24px;
+    font-weight: bold;
+    color: #060706; /* Green color, you can customize */
+    margin-right: 8px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222425; /* Dark color, you can customize */
+  }
+
+  .logo-container img{
+    width: 10rem;
+    padding: 2rem;
+  }
+  
