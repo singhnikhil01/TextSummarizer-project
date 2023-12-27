@@ -5,7 +5,7 @@ const Clipboard = ({ text }) => {
   const copyToClipboard = async () => {
     try {
         await navigator.clipboard.writeText(text);
-        toast.success('🦄 Wow so easy!');
+        toast.success('copied to the clipboard!');
         // setShowToast(true);
     } catch (error) {
       console.error('Unable to copy to clipboard', error);
