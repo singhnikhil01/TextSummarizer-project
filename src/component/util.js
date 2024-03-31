@@ -1,7 +1,7 @@
 export async function query(data) {
-    
+
 	const response = await fetch(
-		"https://api-inference.huggingface.co/models/facebook/bart-large-cnn",
+		"https://api-inference.huggingface.co/models/Falconsai/text_summarization",
 		{
 			headers: { Authorization: `Bearer ${process.env.REACT_APP_API_TOKEN}` },
 			method: "POST",
@@ -14,13 +14,13 @@ export async function query(data) {
 
 export function removeSingleBackslash(inputText) {
 	if (typeof inputText !== 'string') {
-	  console.error('Input must be a string');
-	  return null;
+		console.error('Input must be a string');
+		return null;
 	}
-  
-	const resultText = inputText.replace(/\\/g, ''); 
-  
+
+	const resultText = inputText.replace(/\\/g, '');
+
 	return resultText;
-  }
- 
-  
+}
+
+
